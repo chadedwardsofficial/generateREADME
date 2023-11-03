@@ -68,3 +68,42 @@ inquirer.prompt(questions)
   .catch(error => {
     console.error(error);
   });
+
+
+  function generateREADME(answers, badge) {
+    return `
+  # ${answers.title}   ${badge}
+  
+  ## Description
+  ${answers.description}
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  ## Installation
+  ${answers.installation}
+  
+  ## Usage
+  ${answers.usage}
+  
+  ## License
+  This project is licensed under the ${answers.license} license. 
+  
+  ## Contributing
+  ${answers.contributing}
+  
+  ## Tests
+  ${answers.tests}
+  
+  ## Questions
+  My email [${answers.email}](mailto:${answers.email}). You can also find me on [GitHub](https://github.com/${answers.github}).
+  `;
+  }
+  
+  
+  
