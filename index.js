@@ -52,3 +52,19 @@ const questions = [
     name: 'email',
   },
 ];
+
+inquirer.prompt(questions)
+  .then(answers => {
+    const badge = generateMarkdown.renderLicenseBadge(answers.license);
+    const readmeContent = generateREADME(answers, badge);
+    fs.writeFile('README.md', readmeContent, (err) => {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log('README.md generated successfully!');
+      }
+    });
+  })
+  .catch(error => {
+    console.error(error);
+  });
