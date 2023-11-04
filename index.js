@@ -72,7 +72,7 @@ inquirer.prompt(questions)
 
   function generateREADME(answers, badge) {
     return `
-  # ${answers.title}   ${badge}
+  # ${answers.title}  
   
   ## Description
   ${answers.description}
@@ -92,7 +92,7 @@ inquirer.prompt(questions)
   ${answers.usage}
   
   ## License
-  This project is licensed under the ${answers.license} license. 
+  This project is licensed under the ${answers.license} license.   ${badge}
   
   ## Contributing
   ${answers.contributing}
