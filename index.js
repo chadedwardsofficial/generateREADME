@@ -61,7 +61,7 @@ inquirer.prompt(questions)
       if (err) {
         console.error(err);
       } else {
-        console.log('README.md generated successfully!');
+        console.log('Your Personalized README.md has been created.');
       }
     });
   })
@@ -72,7 +72,7 @@ inquirer.prompt(questions)
 
   function generateREADME(answers, badge) {
     return `
-  # ${answers.title}  
+  # ${answers.title}  ${badge}
   
   ## Description
   ${answers.description}

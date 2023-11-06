@@ -1,8 +1,8 @@
 
-  # dsfsad  
+  # Chad Test  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
   
   ## Description
-  sadfsdaf
+  A testing readme mock up
   
   ## Table of Contents
   - [Installation](#installation)
@@ -13,20 +13,20 @@
   - [Questions](#questions)
   
   ## Installation
-  sdfasdfsd
+  Download and do node index.js
   
   ## Usage
-  sdfsadfsad
+  The process is step by step
   
   ## License
   This project is licensed under the MIT license.   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
   
   ## Contributing
-  sadfsdafasd
+  Me and SMU and inQuirer
   
   ## Tests
-  asdfsadf
+  Download and run
   
   ## Questions
-  My email [sadfsadfas](mailto:sadfsadfas). You can also find me on [GitHub](https://github.com/sadfsadf).
+  My email [chadedwardsofficial@gmail.com](mailto:chadedwardsofficial@gmail.com). You can also find me on [GitHub](https://github.com/chadedwardsofficial).
   
