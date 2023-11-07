@@ -2,7 +2,7 @@
 
 
 ## Introduction
-
+This is a terminal backend application designed to dynamically create a readme based off user input. This application utilizes javascript, inquirer npm and nodejs. Users can customize their own readme without having to use markdown language, all text will be injected into a readme file created.
 
 ## Table of Contents
 - [Features](#features)
@@ -18,6 +18,8 @@
 - Allow users to answer simple questions in terminal to create a well-ready README.md
 
 ## <a name ="demo">Demo</a>
+![Alt text](image.png)
+
 
 
 
